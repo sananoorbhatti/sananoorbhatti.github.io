@@ -38,7 +38,7 @@ body {
   box-shadow: 0 14px 45px rgba(25, 54, 80, 0.12);
 }
 
-/* LEFT SIDEBAR */
+/* BLUE SIDEBAR */
 
 .sidebar {
   background: var(--navy);
@@ -118,42 +118,10 @@ body {
   border-radius: 50%;
 }
 
-/* CONTACT DETAILS AND SYMBOLS */
-
-.contact-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 11px;
-  margin-top: 15px;
-}
-
-.contact-icon {
-  flex: 0 0 28px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  background: rgba(169, 201, 223, 0.14);
-  border: 1px solid rgba(169, 201, 223, 0.35);
-  border-radius: 5px;
-  color: #c4dced;
-  font-size: 16px;
-  line-height: 1;
-}
-
-.linkedin-icon {
-  font-family: Arial, sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-}
-
-.contact-details {
-  min-width: 0;
-}
+/* CONTACT */
 
 .contact-label {
-  margin: 0 0 3px;
+  margin-bottom: 4px;
   color: #b9cddd;
   font-size: 10px;
   font-weight: 700;
@@ -161,9 +129,10 @@ body {
 }
 
 .contact-value {
+  display: inline-block;
   color: #ffffff;
   font-size: 11px;
-  line-height: 1.7;
+  line-height: 1.8;
   overflow-wrap: anywhere;
   text-decoration: none;
   transition: color 0.2s ease;
