@@ -347,3 +347,19 @@ body {
   }
 }
 ```
+
+.sidebar {
+  background-color: #193650 !important;
+  color: #eaf1f6 !important;
+}
+
+.sidebar h1,
+.sidebar p,
+.sidebar li,
+.sidebar h2 {
+  color: #eaf1f6 !important;
+}
+
+.sidebar h2 {
+  color: #a9c9df !important;
+}
