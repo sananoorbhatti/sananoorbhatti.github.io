@@ -20,30 +20,32 @@ body {
   background: #edf1f5;
   color: var(--text);
   font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 12px;
-  line-height: 1.55;
-  padding: 16px 12px;
+  font-size: 13px;
+  line-height: 1.65;
+  padding: 24px 16px;
 }
 
 .resume {
   width: min(100%, 1060px);
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 265px minmax(0, 1fr);
+  grid-template-columns: 300px minmax(0, 1fr);
   background: var(--white);
   box-shadow: 0 10px 30px rgba(25, 54, 80, 0.10);
+  align-items: stretch;
 }
 
 /* BLUE SIDEBAR */
 
 .sidebar {
-  background: var(--navy);
+  background: #193650;
   color: #eaf1f6;
-  padding: 26px 22px;
+  padding: 34px 26px;
+  min-width: 0;
 }
 
 .identity {
-  padding-bottom: 17px;
+  padding-bottom: 19px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -55,11 +57,11 @@ body {
 }
 
 .identity h1 {
-  margin-top: 9px;
+  margin-top: 10px;
   color: var(--white);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 30px;
-  line-height: 1.18;
+  font-size: 31px;
+  line-height: 1.2;
 }
 
 .role {
@@ -76,11 +78,11 @@ body {
 }
 
 .side-section {
-  padding-top: 16px;
+  padding-top: 18px;
 }
 
 .side-section h2 {
-  margin-bottom: 7px;
+  margin-bottom: 8px;
   color: var(--accent);
   font-size: 9px;
   font-weight: 600;
@@ -91,7 +93,7 @@ body {
 .side-list {
   list-style: none;
   display: grid;
-  gap: 3px;
+  gap: 4px;
 }
 
 .side-list li {
@@ -99,13 +101,13 @@ body {
   padding-left: 12px;
   color: #eaf1f6;
   font-size: 11px;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .side-list li::before {
   content: "";
   position: absolute;
-  top: 7px;
+  top: 8px;
   left: 0;
   width: 4px;
   height: 4px;
@@ -117,12 +119,12 @@ body {
 
 .main-content {
   min-width: 0;
-  padding: 27px 31px 20px;
+  padding: 34px 36px 24px;
 }
 
 .content-section {
-  padding-bottom: 17px;
-  margin-bottom: 16px;
+  padding-bottom: 13px;
+  margin-bottom: 13px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -135,17 +137,17 @@ body {
 }
 
 .content-section h2 {
-  margin-bottom: 7px;
+  margin-bottom: 6px;
   color: var(--navy);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 23px;
+  font-size: 22px;
   font-weight: 600;
   line-height: 1.3;
 }
 
 .content-section > p:not(.section-kicker) {
-  font-size: 11px;
-  line-height: 1.65;
+  font-size: 12px;
+  line-height: 1.6;
 }
 
 /* EDUCATION */
@@ -171,7 +173,7 @@ body {
   color: var(--navy);
   font-size: 12px;
   font-weight: 600;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 
 .institution {
@@ -186,13 +188,13 @@ body {
 .skill-group p {
   color: var(--muted);
   font-size: 11px;
-  line-height: 1.6;
+  line-height: 1.55;
 }
 
 /* SKILLS */
 
 .skill-group {
-  margin-top: 9px;
+  margin-top: 7px;
   padding-left: 11px;
   border-left: 2px solid var(--line);
 }
@@ -201,7 +203,7 @@ body {
   color: var(--navy-light);
   font-size: 11px;
   font-weight: 600;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 
 .skill-group p {
@@ -211,7 +213,7 @@ body {
 /* PROJECTS */
 
 .project {
-  margin-top: 12px;
+  margin-top: 9px;
 }
 
 .project h3 {
@@ -273,7 +275,7 @@ body {
   }
 
   .sidebar {
-    padding: 23px;
+    padding: 26px;
   }
 
   .identity h1 {
@@ -285,11 +287,7 @@ body {
   }
 
   .main-content {
-    padding: 24px 22px 18px;
-  }
-
-  .content-section h2 {
-    font-size: 22px;
+    padding: 26px 24px;
   }
 
   .resume-footer {
