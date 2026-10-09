@@ -10,6 +10,7 @@
   --white: #ffffff;
 }
 
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -346,5 +347,9 @@ body {
   .education-entry {
     break-inside: avoid;
   }
+}
+
+.sidebar {
+  background-color: #193650;
 }
 ```
