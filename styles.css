@@ -41,9 +41,10 @@ body {
 /* BLUE SIDEBAR */
 
 .sidebar {
-  background: var(--navy);
+  background: #193650;
   color: #eaf1f6;
   padding: 42px 29px;
+  min-height: 100%;
 }
 
 .identity {
