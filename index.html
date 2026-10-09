@@ -1,92 +1,125 @@
+
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-    <title>Sana Noor Bhatti | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic CV and portfolio of Sana Noor Bhatti, Software Engineering student at Fatima Jinnah Women University.">
+  <title>Sana Noor Bhatti | Academic CV</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+  <header class="site-header">
+    <nav class="navigation container" aria-label="Main navigation">
+      <a class="brand" href="#home">Sana Noor Bhatti</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+      </div>
+    </nav>
+  </header>
 
-```
-<div class="container">
+  <main class="container">
+    <section class="intro" id="home">
+      <p class="eyebrow">ACADEMIC CV &amp; PORTFOLIO</p>
+      <h1>Sana Noor Bhatti</h1>
+      <h2>Software Engineering Student</h2>
+      <p class="intro-text">
+        Fatima Jinnah Women University
+        <span class="separator">|</span> Pakistan
+      </p>
+      <div class="intro-rule"></div>
+    </section>
 
-    <header>
-        <h1>Sana Noor Bhatti</h1>
-        <p class="subtitle">Software Engineering Student</p>
-        <p class="contact">Fatima Jinnah Women University | Pakistan</p>
-    </header>
-
-    <section>
-        <h2>About Me</h2>
+    <section class="cv-section" id="about">
+      <h2 class="section-title">01 <span>About Me</span></h2>
+      <div class="section-content">
         <p>
-            I am a Software Engineering student with an interest in
-            programming, databases, cloud computing, and software
-            development. I enjoy learning new technologies and applying
-            them to practical projects.
+          I am a Software Engineering student with an interest in programming,
+          databases, cloud computing, and software development. I enjoy learning
+          new technologies and applying my knowledge to practical academic
+          projects. My goal is to strengthen my technical skills and develop
+          reliable, well-structured software solutions.
         </p>
+      </div>
     </section>
 
-    <section>
-        <h2>Education</h2>
-        <div class="item">
+    <section class="cv-section" id="education">
+      <h2 class="section-title">02 <span>Education</span></h2>
+      <div class="section-content">
+        <article class="entry">
+          <div class="entry-heading">
             <h3>Bachelor of Science in Software Engineering</h3>
-            <p>Fatima Jinnah Women University</p>
-        </div>
+          </div>
+          <p class="institution">Fatima Jinnah Women University</p>
+          <p class="entry-description">
+            Academic focus includes programming, database systems,
+            computer networks, algorithms, and cloud computing.
+          </p>
+        </article>
+      </div>
     </section>
 
-    <section>
-        <h2>Skills</h2>
-        <div class="grid">
-            <div>
-                <h3>Programming</h3>
-                <p>C++ · Python</p>
-            </div>
-            <div>
-                <h3>Database</h3>
-                <p>SQL · Database Design</p>
-            </div>
-            <div>
-                <h3>DevOps & Cloud</h3>
-                <p>Git · GitHub · Linux · Cloud Computing</p>
-            </div>
-            <div>
-                <h3>Other</h3>
-                <p>Computer Networks · Software Engineering</p>
-            </div>
+    <section class="cv-section" id="skills">
+      <h2 class="section-title">03 <span>Technical Skills</span></h2>
+      <div class="section-content">
+        <div class="skill-row">
+          <h3>Programming Languages</h3>
+          <p>C++ · Python</p>
         </div>
+        <div class="skill-row">
+          <h3>Databases</h3>
+          <p>SQL · Database Design</p>
+        </div>
+        <div class="skill-row">
+          <h3>Tools &amp; Cloud</h3>
+          <p>Git · GitHub · Linux · Cloud Computing</p>
+        </div>
+        <div class="skill-row">
+          <h3>Core Areas</h3>
+          <p>Computer Networks · Software Engineering</p>
+        </div>
+      </div>
     </section>
 
-    <section>
-        <h2>Projects</h2>
+    <section class="cv-section" id="projects">
+      <h2 class="section-title">04 <span>Academic Projects</span></h2>
+      <div class="section-content">
+        <article class="project">
+          <p class="project-number">PROJECT 01</p>
+          <h3>Cybersecurity Database Project</h3>
+          <p>
+            Designed a database system using SQL to organize and analyze
+            cybersecurity breach information and related data.
+          </p>
+        </article>
 
-        <div class="item">
-            <h3>Cybersecurity Database Project</h3>
-            <p>
-                Designed a database system for organizing and analyzing
-                cybersecurity breach information using SQL.
-            </p>
-        </div>
+        <article class="project">
+          <p class="project-number">PROJECT 02</p>
+          <h3>Computer Networks Project</h3>
+          <p>
+            Designed an emergency satellite communication network using
+            networking concepts and routing technologies.
+          </p>
+        </article>
 
-        <div class="item">
-            <h3>Computer Networks Project</h3>
-            <p>
-                Designed an emergency satellite communication network
-                using networking concepts and routing technologies.
-            </p>
-        </div>
-
-        <div class="item">
-            <h3>Parallel and Distributed Algorithms</h3>
-            <p>
-                Studied and implemented parallel algorithms including
-                parallel merge sort and matrix multiplication.
-            </p>
-        </div>
+        <article class="project">
+          <p class="project-number">PROJECT 03</p>
+          <h3>Parallel and Distributed Algorithms</h3>
+          <p>
+            Studied and implemented parallel algorithm concepts, including
+            parallel merge sort and matrix multiplication.
+          </p>
+        </article>
+      </div>
     </section>
 
-</div>
-```
-
+    <footer class="footer">
+      <p>Sana Noor Bhatti</p>
+      <p>Software Engineering Student · Fatima Jinnah Women University</p>
+    </footer>
+  </main>
 </body>
 </html>
